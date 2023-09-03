@@ -165,7 +165,7 @@ text-align: center;
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
-footer{
+.footer{
     background-color:var(--color-navy);
 }
 .f-studio{
