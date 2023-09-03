@@ -29,16 +29,16 @@ ul{
  overflow: hidden;
 }
 .logo{
-    color:var(--color-navy);
+    color:var(--color-primarybr);
     font-family: Raleway,sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;/* размер высоты задаем в процентах 21/18*/
+    line-height: 1.17;/* размер высоты задаем в процентах 21/18*/
     letter-spacing: 0.54px;/* задается в em rem 0.54/18*/
     text-transform: uppercase;
 }
 .nav-web{
-    color:var(--color-primarybr);
+    color:var(--color-navy);
 }
 .nav-link{
     color:var(--color-navy);
@@ -46,8 +46,6 @@ ul{
     font-weight: 500;
     letter-spacing: 0.32px;/* em rem 0.32/16*/
     line-height: 1.5;/*24/16*/
-
-
 }
 .nav-link:active{
     color:var(--color-pressed);
@@ -120,8 +118,12 @@ ul{
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;/*40/36*/
+    line-height: 1.11;/*40/36*/
     letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+.team-card{/* У пункті списку в класі задано стиль background-color: #FFFFFF для визначення фону*/
+    background-color: var(--color-textbg);
 }
 .name-team{
 color:var(--color-navy);
@@ -142,9 +144,10 @@ text-align: center;
     color:var(--color-navy);
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-align: center;
+    text-transform: capitalize;
 }
 .function{
     color:var(--color-navy);
@@ -163,20 +166,20 @@ text-align: center;
 footer{
     background-color:var(--color-navy);
 }
-.footer-web{
-    color: var(--color-primarybr);
+.f-studio{
+    color: var(--color-back);
 
 }
-.footer-logo{
+.f-logo{
     font-family: Raleway,sans-serif;
-    color:var(--color-back);
+    color:var(--color-primarybr);
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.54px;
 }
-.footer-text{
+.f-text{
     color:var(--color-back);
     font-size: 16px;
     font-weight: 400;
