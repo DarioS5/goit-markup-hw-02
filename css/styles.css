@@ -65,16 +65,7 @@ ul{
     line-height: 1.5;/*24/16*/
     letter-spacing: 0.32px;
     font-style: normal;
-
 }
-.nav-adress:hover,
-.nav-address:focus{
-    color:var(--color-pressed);
-}
-/*.nav-tel{
-    color:var(--color-text);
-}*/
-
 .section-hero{
     background-color:var(--color-navy);
 }
