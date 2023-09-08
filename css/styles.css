@@ -48,7 +48,7 @@ ul{
     letter-spacing: 0.32px;/* em rem 0.32/16*/
     line-height: 1.5;/*24/16*/
 }
-.nav-link:active{
+.nav-link:hover, nav-link:focus{
     color:var(--color-pressed);
 }
 .nav-adress{
