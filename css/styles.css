@@ -55,6 +55,10 @@ ul{
 .nav-adress{
     color:var(--color-text);
 }
+.nav-adress:hover,
+.nav-address:focus {
+    color: var(--color-pressed);
+}
 .adress-standart{
     font-size: 16px;
     font-weight: 400;
