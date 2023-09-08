@@ -63,7 +63,8 @@ ul{
     font-style: normal;
 
 }
-.nav-adress:active{
+.nav-adress:hover,
+.nav-address:focus{
     color:var(--color-pressed);
 }
 .nav-tel{
@@ -88,12 +89,13 @@ ul{
     background-color:var(--color-primarybr);
     border: 0;
     cursor: pointer;
-    padding: 16px 32px;
+    /*padding: 16px 32px;*/
     font-weight: 500;
     line-height: 1.5;/*24/16*/
     letter-spacing: 0.64px;
 }
-.hero-button:hover{
+.hero-button:hover,
+.hero-button:focus{
     color:var(--color-textbg);
     background-color:var(--color-pressed);
 }
