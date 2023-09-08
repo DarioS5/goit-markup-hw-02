@@ -56,7 +56,7 @@ ul{
     color:var(--color-text);
 }
 .nav-adress:hover,
-.nav-address:focus {
+.nav-adress:focus {
     color: var(--color-pressed);
 }
 .adress-standart{
