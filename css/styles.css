@@ -67,9 +67,9 @@ ul{
 .nav-address:focus{
     color:var(--color-pressed);
 }
-.nav-tel{
+/*.nav-tel{
     color:var(--color-text);
-}
+}*/
 
 .section-hero{
     background-color:var(--color-navy);
@@ -89,7 +89,6 @@ ul{
     background-color:var(--color-primarybr);
     border: 0;
     cursor: pointer;
-    /*padding: 16px 32px;*/
     font-weight: 500;
     line-height: 1.5;/*24/16*/
     letter-spacing: 0.64px;
@@ -115,8 +114,6 @@ ul{
 }
 .section-team{
     background-color:var(--color-back);
-    /*width: 1440px;
-    height: 732px;*/
 }
 .team{
     color:var(--color-navy);
